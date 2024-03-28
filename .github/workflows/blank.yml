@@ -19,6 +19,8 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+
+    # 解决提交权限问题
     permissions:
       contents: write
 
